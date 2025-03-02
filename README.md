@@ -9,7 +9,7 @@ Dataset:
 - It is popular and well known flower dataset for classification
 
 Implementation:
-- For example: !python kmeans_algorithm.py iris.arff 3 0.0001 100
+- !python kmeans_algorithm.py iris.arff 3 0.0001 100
 - where iris.arff is dataset, 3 is number of clusters, 0.0001 is epsilon, 100 is number of iterations.
 
 The basic command is 
@@ -17,10 +17,11 @@ The basic command is
 
 
 Results:
-- Final cluster centroids, final SSD, total number of iterations
+- Final cluster centroids, final SSD, total number of iterations (save in text file)
 - Plot of runtime vs. number of clusters
 - Plot of runtime vs. number of dimension
 - Plot of runtime vs. size of dataset (number of transactions)
+- Plot of goodness vs. number of clusters
 
 WeKa_Output:
 - The results of k-means are saved in Weka_Output folder.
