@@ -16,14 +16,14 @@ The basic command is
 - !python kmeans_algorithm.py [iris.arff] [k] [epsilon] [iterations]
 
 
-Results:
+Results (k=3):
 - Final cluster centroids, final SSD, total number of iterations (save in text file)
 - Plot of runtime vs. number of clusters
 - Plot of runtime vs. number of dimension
 - Plot of runtime vs. size of dataset (number of transactions)
 - Plot of goodness vs. number of clusters
 
-WeKa_Output:
+Weka_Output:
 - The k-means results are saved in the Weka_Output folder.
 - The number of clusters is from 1 to 10.
 
